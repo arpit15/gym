@@ -165,6 +165,11 @@ register(
 
 # Mujoco
 # ----------------------------------------
+# 3D
+register(
+    id='PrArm-v0',
+    entry_point='gym.envs.mujoco:PR2ArmEnv',
+)
 
 # 2D
 
